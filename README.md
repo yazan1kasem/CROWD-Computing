@@ -30,6 +30,7 @@ Das Projekt besteht aus zwei zentralen Komponenten:
 Beim Start von `main.py` wird der Server aktiviert und beginnt, Aufgaben an Clients zu verteilen. Clients lösen die Aufgaben und senden Ergebnisse wie:
 
 ![image](https://github.com/user-attachments/assets/40f0b7d9-7e15-4fb7-8899-3c983d7d3391)
+
 *Abbildung: Beispielausgabe*
 
 Die Kommunikation erfolgt über das `socket`-Modul, während Threads und Subprozesse für parallele Abläufe sorgen.
